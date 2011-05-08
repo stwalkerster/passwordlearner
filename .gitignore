@@ -1,0 +1,6 @@
+
+_ReSharper.PasswordLearningTool/*
+*.ReSharper.user
+*.suo
+PasswordLearningTool/obj/*
+PasswordLearningTool/bin/*
