@@ -28,25 +28,27 @@ namespace PasswordLearningTool
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-           
+            int textboxid = int.Parse(((TextBox) sender).Name.Substring(7));
 
-            if(((TextBox)sender).Text.Length == 0)
-            {
-            }
-            else
+            char correctchar = textBox1.Text.ToCharArray()[textboxid - 2];
+
+            if (((TextBox) sender).Text.Length != 0)
             {
                 // first char filled in, move to next box
-                string name = ((TextBox) sender).Name;
-                string substring = name.Substring(7);
-                int i = int.Parse(substring);
-                i++;
-                string control = "textBox" + i;
-                
+                string control = "textBox" + ++textboxid;
+
+                ((TextBox) sender).BackColor = (((TextBox) sender).Text.ToCharArray())[0] == correctchar
+                                                   ? Color.Green
+                                                   : Color.Red;
 
                 if (this.Controls.ContainsKey(control))
                 {
                     this.Controls[control].Focus();
                 }
+            }
+            else
+            {
+                ((TextBox) sender).BackColor = Color.White;
             }
         }
 
