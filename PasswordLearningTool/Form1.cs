@@ -38,8 +38,8 @@ namespace PasswordLearningTool
                 string control = "textBox" + ++textboxid;
 
                 ((TextBox) sender).BackColor = (((TextBox) sender).Text.ToCharArray())[0] == correctchar
-                                                   ? Color.Green
-                                                   : Color.Red;
+                                                   ? Color.PaleGreen
+                                                   : Color.LightCoral;
 
                 if (this.Controls.ContainsKey(control))
                 {
