@@ -25,5 +25,42 @@ namespace PasswordLearningTool
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+           
+
+            if(((TextBox)sender).Text.Length == 0)
+            { // empty first char, focus at end of last box
+                if(((TextBox)sender).Name == "textBox2")
+                {
+                    //first box, do nothing
+                }
+                else
+                {
+                    string control = "textBox" + int.Parse(((TextBox)sender).Name.Substring(7)) + 1;
+                    if (this.Controls.ContainsKey(control))
+                    {
+                        this.Controls[control].Focus();
+                        ((TextBox) this.Controls[control]).SelectionStart = 1;
+                    }
+                }
+            }
+            else
+            {
+                // first char filled in, move to next box
+                string name = ((TextBox) sender).Name;
+                string substring = name.Substring(7);
+                int i = int.Parse(substring);
+                i++;
+                string control = "textBox" + i;
+                
+
+                if (this.Controls.ContainsKey(control))
+                {
+                    this.Controls[control].Focus();
+                }
+            }
+        }
     }
 }
