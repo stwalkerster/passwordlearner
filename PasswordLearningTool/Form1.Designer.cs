@@ -98,7 +98,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(81, 64);
+            this.textBox4.Location = new System.Drawing.Point(59, 64);
             this.textBox4.MaxLength = 1;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(16, 19);
@@ -108,7 +108,7 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(59, 64);
+            this.textBox5.Location = new System.Drawing.Point(81, 64);
             this.textBox5.MaxLength = 1;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(16, 19);
@@ -118,7 +118,7 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(125, 64);
+            this.textBox6.Location = new System.Drawing.Point(103, 64);
             this.textBox6.MaxLength = 1;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(16, 19);
@@ -128,7 +128,7 @@
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(103, 64);
+            this.textBox7.Location = new System.Drawing.Point(125, 64);
             this.textBox7.MaxLength = 1;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(16, 19);
@@ -148,7 +148,7 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(301, 64);
+            this.textBox9.Location = new System.Drawing.Point(169, 64);
             this.textBox9.MaxLength = 1;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(16, 19);
@@ -158,7 +158,7 @@
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(279, 64);
+            this.textBox10.Location = new System.Drawing.Point(191, 64);
             this.textBox10.MaxLength = 1;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(16, 19);
@@ -168,7 +168,7 @@
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(257, 64);
+            this.textBox11.Location = new System.Drawing.Point(213, 64);
             this.textBox11.MaxLength = 1;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(16, 19);
@@ -188,7 +188,7 @@
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(213, 64);
+            this.textBox13.Location = new System.Drawing.Point(257, 64);
             this.textBox13.MaxLength = 1;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(16, 19);
@@ -198,7 +198,7 @@
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(191, 64);
+            this.textBox14.Location = new System.Drawing.Point(279, 64);
             this.textBox14.MaxLength = 1;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(16, 19);
@@ -208,7 +208,7 @@
             // textBox15
             // 
             this.textBox15.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(169, 64);
+            this.textBox15.Location = new System.Drawing.Point(301, 64);
             this.textBox15.MaxLength = 1;
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(16, 19);
