@@ -31,20 +31,7 @@ namespace PasswordLearningTool
            
 
             if(((TextBox)sender).Text.Length == 0)
-            { // empty first char, focus at end of last box
-                if(((TextBox)sender).Name == "textBox2")
-                {
-                    //first box, do nothing
-                }
-                else
-                {
-                    string control = "textBox" + int.Parse(((TextBox)sender).Name.Substring(7)) + 1;
-                    if (this.Controls.ContainsKey(control))
-                    {
-                        this.Controls[control].Focus();
-                        ((TextBox) this.Controls[control]).SelectionStart = 1;
-                    }
-                }
+            {
             }
             else
             {
@@ -59,6 +46,28 @@ namespace PasswordLearningTool
                 if (this.Controls.ContainsKey(control))
                 {
                     this.Controls[control].Focus();
+                }
+            }
+        }
+
+        private void textBox15_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != 8) return;
+
+            if (((TextBox)sender).Text.Length != 0) return;
+
+            // empty first char, focus at end of last box
+            if (((TextBox)sender).Name == "textBox2")
+            {
+                //first box, do nothing
+            }
+            else
+            {
+                string control = "textBox" + (int.Parse(((TextBox)sender).Name.Substring(7)) - 1);
+                if (this.Controls.ContainsKey(control))
+                {
+                    this.Controls[control].Focus();
+                    ((TextBox) this.Controls[control]).Text = "";
                 }
             }
         }

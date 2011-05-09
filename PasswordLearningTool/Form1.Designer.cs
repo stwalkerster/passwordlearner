@@ -94,6 +94,7 @@
             this.textBox3.Size = new System.Drawing.Size(16, 19);
             this.textBox3.TabIndex = 37;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox4
             // 
@@ -104,6 +105,7 @@
             this.textBox4.Size = new System.Drawing.Size(16, 19);
             this.textBox4.TabIndex = 39;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox5
             // 
@@ -114,6 +116,7 @@
             this.textBox5.Size = new System.Drawing.Size(16, 19);
             this.textBox5.TabIndex = 38;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox6
             // 
@@ -124,6 +127,7 @@
             this.textBox6.Size = new System.Drawing.Size(16, 19);
             this.textBox6.TabIndex = 41;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox7
             // 
@@ -134,6 +138,7 @@
             this.textBox7.Size = new System.Drawing.Size(16, 19);
             this.textBox7.TabIndex = 40;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox8
             // 
@@ -144,6 +149,7 @@
             this.textBox8.Size = new System.Drawing.Size(16, 19);
             this.textBox8.TabIndex = 42;
             this.textBox8.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox9
             // 
@@ -154,6 +160,7 @@
             this.textBox9.Size = new System.Drawing.Size(16, 19);
             this.textBox9.TabIndex = 49;
             this.textBox9.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox10
             // 
@@ -164,6 +171,7 @@
             this.textBox10.Size = new System.Drawing.Size(16, 19);
             this.textBox10.TabIndex = 48;
             this.textBox10.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox11
             // 
@@ -174,6 +182,7 @@
             this.textBox11.Size = new System.Drawing.Size(16, 19);
             this.textBox11.TabIndex = 47;
             this.textBox11.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox12
             // 
@@ -184,6 +193,7 @@
             this.textBox12.Size = new System.Drawing.Size(16, 19);
             this.textBox12.TabIndex = 46;
             this.textBox12.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox13
             // 
@@ -194,6 +204,7 @@
             this.textBox13.Size = new System.Drawing.Size(16, 19);
             this.textBox13.TabIndex = 45;
             this.textBox13.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox14
             // 
@@ -204,6 +215,7 @@
             this.textBox14.Size = new System.Drawing.Size(16, 19);
             this.textBox14.TabIndex = 44;
             this.textBox14.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // textBox15
             // 
@@ -214,12 +226,13 @@
             this.textBox15.Size = new System.Drawing.Size(16, 19);
             this.textBox15.TabIndex = 43;
             this.textBox15.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox15_KeyPress);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 262);
+            this.ClientSize = new System.Drawing.Size(341, 105);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox11);
