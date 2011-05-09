@@ -3,7 +3,9 @@
 This is a tool to help you learn a new password on a char-by-char basis.
 
 Enter your new (currently has to be 14-char) password in the top box as a paste from something like KeePass,
-and then proceed to attempt to enter it in the bottom box. When you can finally remember it, congrats!
+and then proceed to attempt to enter it in the bottom box. Pressing return at the end will clear the boxes if you have it correct.
+
+When you can finally remember it, congrats!
 
 == Licence ==
 

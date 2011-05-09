@@ -50,10 +50,37 @@ namespace PasswordLearningTool
             {
                 ((TextBox) sender).BackColor = Color.White;
             }
+
         }
 
         private void textBox15_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (e.KeyChar == '\r')
+            {
+                if (textBox2.Text + textBox3.Text + textBox4.Text + textBox5.Text + textBox6.Text + textBox7.Text +
+                    textBox8.Text + textBox9.Text + textBox10.Text + textBox11.Text + textBox12.Text + textBox13.Text +
+                    textBox14.Text + textBox15.Text == textBox1.Text)
+                {
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    textBox5.Text = "";
+                    textBox6.Text = "";
+                    textBox7.Text = "";
+                    textBox8.Text = "";
+                    textBox9.Text = "";
+                    textBox10.Text = "";
+                    textBox11.Text = "";
+                    textBox12.Text = "";
+                    textBox13.Text = "";
+                    textBox14.Text = "";
+                    textBox15.Text = "";
+                    textBox2.Focus();
+                }
+                return;
+            }
+
+
             if (e.KeyChar != 8) return;
 
             if (((TextBox)sender).Text.Length != 0) return;
